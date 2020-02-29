@@ -1,0 +1,8 @@
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel-indicators > li {
+    width: 15px;
+    height: 15px;
+  }
