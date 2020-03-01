@@ -10,6 +10,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+<link rel="icon" type="image/png" sizes="36x36" href="images/module/apple-icon-60x60.png">
+<link rel="manifest" href="images/module/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -22,18 +28,35 @@
 
         <div class="navbar-collapse collapse" id="navbarsExample01" style="">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="home.html">Home</a>
-                </li>
+                <table>
+                    <tbody>
+                <tr>
                 <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+             <td style="height: 2px; width :14px;"><img src="images/logo/favicon-16x16.png"  ></td> 
+             <td><a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span> </a></td>
                 </li>
+            </tr>
+            <tr>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">App</a>
+                    <td style="height: 2px; width :14px;"><img src="images/about/favicon-16x16.png"  ></td> 
+                   <td> <a class="nav-link" href="about.html">About</a></td>
                 </li>
+            </tr>
+            <tr>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Contact</a>
+                    <td style="height: 2px; width :14px;"><img src="images/app/favicon-16x16.png"  ></td> 
+                   <td><a class="nav-link" href="#">App</a></td>
                 </li>
+            </tr>
+            <tr>
+                <li class="nav-item">
+                    
+                    <td style="height: 2px; width :14px;"><img src="images/contact/favicon-16x16.png"  ></td>
+                    <td><a class="nav-link disabled" href="#">Contact</a></td>
+                </li>
+            </tr>
+                    </tbody>
+                </table>
             </ul>
         </div>
     </nav>
