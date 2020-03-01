@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mystyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="home.html">LOGO</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExample01" style="">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="app.html"> App <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="container">
+        <h2>Addition of three numbers</h2>
+    <div class="form-group">
+        <label for="usr">Input 1:</label>
+        <input type="text" class="form-control" id="1">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Input 2:</label>
+        <input type="text" class="form-control" id="2">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Input 3:</label>
+        <input type="text" class="form-control" id="3">
+      </div>
+      <button type="button" id="b" class="btn btn-outline-primary"  onclick="add('1','2','3')">ADD </button>
+    </div>
+    <script>
+        function add(x,y,z) {
+        var x=document.getElementById(x).innerHTML;
+        var y=document.getElementById(y).innerHTML;
+        var z=document.getElementById(z).innerHTML;
+        var add = 0;
+        add= Number(x)+Number(y)+Number(z);
+        alert("SUM is: " + add);
+       
+        
+            
+        }
+        
+
+       
+
+
+    </script>

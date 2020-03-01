@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mystyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="home.html">LOGO</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExample01" style="">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">App</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-sm-12">
+                <article>
+                    <h3>My Info</h3>
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <td>First Name:</td>
+                                <td>Sri Sudheera</td>
+                            </tr>
+                            <tr>
+                                <td>Last Name:</td>
+                                <td>Chitipolu</td>
+                            </tr>
+                            <tr>
+                                <td>Email ID:</td>
+                                <td>S538422@nwmissouri.edu</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+                <br>
+                <article>
+                    <h3>My Pencil Sketch</h3>
+                    <img src="images/d.jpg" class="img-thumbnail" alt="My Drawing">
+                    <ol>
+                        <li>Materials Used:
+                            <ul>
+                                <li>Pencil</li>
+                                <li>Crayons</li>
+                            </ul>
+                        </li>
+                        <li>Year Published:
+                            <ul>
+                                <li>December, 2017</li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                </article>
+                <br>
+                <article>
+                    <h3>My Video</h3>
+                    <!-- 21:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VfLT5AUwTxA"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <br>
+                    <p>My video on Gotenna</p>
+                </article>
+
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
