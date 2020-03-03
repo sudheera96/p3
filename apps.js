@@ -4,7 +4,7 @@
             var c = document.getElementById(z).value;
             
             alert("SUM is: " + addValues(a,b,c));
-            document.getElementById('sum').innerHTML="SUM is:" +addValues(a,b,c);
+            document.getElementById('sum').innerHTML="SUM is:" + addValues(a,b,c);
         }
 
 function addValues(a,b,c){
