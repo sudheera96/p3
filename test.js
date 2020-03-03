@@ -1,9 +1,8 @@
 QUnit.module('MAIN MODULE', {})  // group all these tests together
 
-QUnit.test('TEST add', assert => {
-    console.log(add('1','2','3'));
-  assert.equal(add('1','2','3'), 6,6)
-})
+QUnit.test("prettydate basics", function( assert ) {
+    assert.equal(add('1','2','3'), 6);
+  });
 
 QUnit.config.autostart = false  // sync = false; start after loading html
 // This script, called when the page loads, reaches out to the app that we wish to test
