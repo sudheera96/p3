@@ -14,6 +14,8 @@
 
 [Favicon Generator](https://www.favicon-generator.org/)
 
+[News API](https://www.cnn.com/)
+
 ![Browser ICON](https://spng.subpng.com/20180502/eow/kisspng-computer-icons-free-module-download-bigmidin-5ae9b8df6564d8.3947347815252666554153.jpg)
 
 
